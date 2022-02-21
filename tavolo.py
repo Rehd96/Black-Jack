@@ -2,17 +2,14 @@ import zmq
 class Tavolo: 
     #n_tavoli = [] #se volgiamo complicare il gioco
     giocatori = []
-    info_giocatore_singolo = ["richiesta":"","indirizzo": "", "nome" : "", ]
+    info_giocatore_singolo = ["validazione" : False, "richiesta":"","indirizzo": "", "nome" : "", "soldi": ""]
     max_giocatori = 0
     def __init__(self):
         pass
-    def lista_giocatori(self):
-        #RICEVI UTENTE o (ciclando fino al massimo di utenti possibili (3))
-        
-        
-    def scelta_metodo(self):
-        #chiediamo la stringa bit (lista), la convertiamo in str e prendiamo
-        #il parametro "richiesta"
+    
+    def scelta_metodo(self, diz_giocatore):
+        #MANDA RICHIESTA: chiediamo la stringa bit (lista), la convertiamo 
+        #in str e prendiamo il parametro "richiesta"
         #
         pass
     #in base alla richiesta (nel dizionario) di ogni giocatore, si procede con 
