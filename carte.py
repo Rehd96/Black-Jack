@@ -35,6 +35,13 @@ class Mazzo:
         num_estratto = random.randint(l_inizio, l_mazzo)
         return self.mazzo_carte.pop(num_estratto)
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 1040af7dfb5a3b9967b7bb573025486b6bac1ea3
 mazzo = Mazzo(1)
 for carta in mazzo.mazzo_carte:
     print(carta[1][0],' di ',carta[1][1], ' vale ' ,carta[0])
