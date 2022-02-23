@@ -29,3 +29,33 @@ class Tavolo:
     
 class Mazziere:
     tutte_le_carte = []
+    giocatori_eliminati = []
+    mano_attuale = []
+    tot_giocatori_attuali = ""  #che possono essere anche quelli iniziali
+    def __init__(self):
+        self.tutte_le_carte = self.somma_mazzi()
+    
+    def distribuisci_carte(self):
+        #prindi il mazzo e pesca due carte per tutti
+        pass
+    def pescata_richiesta():
+        #RICEVI RICHIESTA
+        #pesca la singola carta e returnala al giocatore che l'ha chiesta
+        pass
+    def mescola_mazzo(self): #non so se serve
+        pass
+    
+    def richiesta_giocatori_dal_tavolo(self):
+        #tot_giocatori_attuali sarebbero anche i giocatori validi
+        pass
+    def lista_giocatori_eliminati(self):
+        pass
+    
+    def get_mazzi(self, mazzi):
+        self.tutte_le_carte = mazzi
+        return self.tutte_le_carte
+    
+    def somma_mazzi():
+        #RICEVI RICHIESTA: Ricevi dal tavolo il num dei giocatori
+        #crea mazzi e li smmi in base al numero dei giocatori
+        
