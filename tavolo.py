@@ -28,6 +28,4 @@ class Tavolo:
         
     
 class Mazziere:
-        
-    
-    
+    tutte_le_carte = []
